@@ -21,8 +21,13 @@ total_cost <- puppies * puppy_price
 
 # Create a boolean variable `too_expensive`, set to TRUE if the cost is greater 
 # than $1,000
-if(total_cost>1000)
-too_expensive <- TRUE 
+
+too_expensive <- total_cost > 1000
+
+
+
 # Create a variable `max_puppies`, which is the number of puppies you can 
 # afford for $1,000
-max_puppies 
+
+max_puppies <- 1000 %% puppy_price
+
