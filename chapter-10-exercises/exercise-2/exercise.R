@@ -35,7 +35,7 @@ salaries$got_raise <- salaries$adjustments > 0
 ### cell rather than the whole row!)
 
 # What was the 2018 salary of Employee 57
-salaries[ salaries$employees == "Employee 57","salaries_2018"]
+salaries[salaries$employees == "Employee 57", "salaries_2018"]
 
 # How many employees got a raise?
 
