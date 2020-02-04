@@ -53,6 +53,8 @@ flights %>%
 View(to_sea)
 # On average, did flights to SeaTac gain or loose time?
 
+
+
  summarize(to_sea, avg_delayed = mean(delayed_in_air, na.rm=TRUE))
 
 # Consider flights from JFK to SEA. What was the average, min, and max air time
